@@ -1,12 +1,12 @@
 # Define the function
 def largest_smallest(arr):
-    largest = smallest = arr(0)
+    largest = smallest = arr[0]
 
     for num in arr:
         if num > largest:
             largest = num
-            if num < smallest:
-                smallest = num
+        if num < smallest:
+            smallest = num
 
 
     return largest, smallest
